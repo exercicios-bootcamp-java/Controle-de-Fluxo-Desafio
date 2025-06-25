@@ -16,7 +16,8 @@ public class Contador {
 		} catch (ParametrosInvalidosException e) {
             System.out.println(e.getMessage());
 		}
-		
+		terminal.close();
+
 	}
 	static void contar(int parametroUm, int parametroDois ) throws ParametrosInvalidosException {
 		//validar se parametroUm é MAIOR que parametroDois e lançar a exceção
